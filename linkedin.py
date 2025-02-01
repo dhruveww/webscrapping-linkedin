@@ -42,7 +42,7 @@ if startpage:
                 
                 passwordbox = WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.XPATH, """/html/body/div/main/div[3]/div[1]/div[3]/form/div[1]/input""")))
-                passwordbox.send_keys("duruP@26")
+                passwordbox.send_keys("***")
 
                 signinbutton = WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,"""/html/body/div/main/div[3]/div[1]/div[3]/form/div[2]/button"""))).click()
             else:
